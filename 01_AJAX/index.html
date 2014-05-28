@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 	<html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" >
+    <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>JavaScript AJAX</title>
+
+        <link rel="stylesheet" href="css/normalize.css" >
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/custom.css" >
+
+        <script src="js/vendor/custom.modernizr.js"></script>
+        <script src="js/my.js"></script>
+
+    </head>
+    <body>
+
+        <!--row-->
+
+        <div class="row">
+            <div class="large-12 columns">
+                <img src="images/slide3.jpg" alt="header web">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" small-4 large-3 columns">
+                <h4>Menu</h4>
+                <ul class="side-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <h4>Contact US</h4>
+                <ul class="vcard">
+                    <li class="fn">Kasiti Panthanom</li>
+                    <li class="street-address">182/2 Soi Langsuan</li>
+                    <li class="locality">Pathumwan</li>
+                    <li><span class="state">Bangkok</span>, <span class="zip">10330</span></li>
+                    <li class="email"><a href="#">kasiti@cityhubs.net</a></li>
+                </ul>
+            </div>
+            
+            <!-- AJAX Code-->
+            <div class="small-8 large-9 columns">
+                <h3>JavaScript AJAX </h3>
+                <div id="result">
+                    
+                </div>
+                <button class="button large" onclick="loadTxt();">Click to see AJAX</button>
+                <button class="button alert large" onclick="loadCatalog();">Click to see CD Catalog</button>
+                
+
+
+
+            </div>
+        </div>
+
+        <script>
+            document.write('<script src=' + ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') + '.js><\/script>');
+        </script>
+        <script src="js/foundation.min.js"></script>
+
+        <script>
+            $(document).foundation();
+
+        </script>
+    </body>
+</html>

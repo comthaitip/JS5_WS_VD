@@ -1,0 +1,2 @@
+<p>This is sample text from AJAX</p>
+<img src="images/1.jpg" alt="Sample pics">
