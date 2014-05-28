@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Author & Facebook: Kasiti Panthanom
+E-Mail: kasiti@cityhubs.net, comthaitip@gmail.com
+-->
+<html>
+    <head>
+        <title>JavaScript Workshop 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+
+        <script src="js/jquery-latest.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <div class="container-fluid">
+            <div class="row-fluid" id="content">
+                <div class="span4" id="imgPos">
+                    <img src="images/pic2.jpg" id="mainImg" class="img-polaroid" alt="Main Image">
+                </div>
+                <div class="span8" id="jsPanel">
+                    <h1>JavaScript Coding - Result</h1>
+                    <form class="form-horizontal" id="myForm" method="get" action="test.html" >
+                        <div class="control-group">
+                            <label class="control-label" for="inputname">Your Name</label>
+                            <div class="controls">
+                                <input type="text" id="inputName" placeholder="Your Name">
+                            </div>
+                        </div>
+                         <div class="control-group">
+                            <label class="control-label" for="inputname">Your Phone</label>
+                            <div class="controls">
+                                <input type="text" id="inputPhone" placeholder="Your Phone">
+                            </div>
+                        </div>
+                          <div class="control-group">
+                            <label class="control-label" for="inputEmail">E-Mail Address</label>
+                            <div class="controls">
+                                <input type="text" id="inputEmail" placeholder="E-Mail Address">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputCity">City Name</label>
+                            <div class="controls">
+                                <input type="text" id="inputCity" placeholder="City">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputPostal">Postal Code</label>
+                            <div class="controls">
+                                <input type="text" id="inputPostal" placeholder="Postal Code">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label">Get Newsletters?</label>
+                            <div class="controls">
+                                <label class="radio inline">
+                                    <input type="radio" name="getNews" id="getNews1" value="Yes" checked>
+                                    Yes
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" name="getNews" id="getNews2" value="No">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                        <div class="control-group">
+
+                            <button type="submit" class="btn btn-primary btn-large">Submit</button>
+
+                        </div>
+                    </form>
+                    <span id="frmMessage"></span>
+                </div>
+            </div>
+        </div>
+        <script src="js/myfun.js"></script>
+
+    </body>
+</html>
